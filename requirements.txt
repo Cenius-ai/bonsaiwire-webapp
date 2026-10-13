@@ -1,0 +1,8 @@
+# BonsaiWire runs on the Python standard library only - there are no
+# third-party runtime dependencies.  This file exists so that
+# `pip install -r requirements.txt` is a valid, offline, no-op step.
+#
+# Tests use the standard-library `unittest` runner:
+#     python3 -m unittest discover -s tests -v
+# The same suite is collected by pytest if it is available:
+#     python3 -m pytest

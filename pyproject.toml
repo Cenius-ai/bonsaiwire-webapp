@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bonsaiwire"
+version = "1.0.0"
+description = "BonsaiWire - branch wiring schedule, wire gauge calculator and tree growth log (single-file, standard library only)."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+authors = [{ name = "BonsaiWire" }]
+keywords = ["bonsai", "wiring", "cli", "schedule", "growth-log"]
+
+[project.scripts]
+bonsaiwire = "bonsaiwire:run"
+
+[tool.setuptools]
+py-modules = ["bonsaiwire"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
