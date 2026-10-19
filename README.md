@@ -30,7 +30,7 @@ _Local clone? See [Quick start](#quick-start) below. cenius.ai is the zero-setup
 
 ## Architecture
 
-Folder layout: `tests/`. Starting up is just `./install.sh`: it installs what is needed and pre-fills the database so you have data to work with straight away. Built in Full-stack app (29 files). Installation walkthrough: [`INSTALL.md`](INSTALL.md).
+Folder layout: `tests/`. Starting up is just `./install.sh`: it installs what is needed and pre-fills the database so you have data to work with straight away. Built in Full-stack app (19 files). Installation walkthrough: [`INSTALL.md`](INSTALL.md).
 
 ## Quick start
 
